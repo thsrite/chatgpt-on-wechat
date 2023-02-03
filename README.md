@@ -127,6 +127,9 @@ nohup python3 app.py & tail -f nohup.out          # 在后台运行程序并通�
 ```
 扫码登录后程序即可运行于服务器后台，此时可通过 `ctrl+c` 关闭日志，不会影响后台程序的运行。使用 `ps -ef | grep app.py | grep -v grep` 命令可查看运行于后台的进程，如果想要重新启动程序可以先 `kill` 掉对应的进程。日志关闭后如果想要再次打开只需输入 `tail -f nohup.out`。
 
+3.docker部署
+https://hub.docker.com/repository/docker/thsrite/chatgpt/general
+
 ## 常见问题
 
 FAQs： <https://github.com/zhayujie/chatgpt-on-wechat/wiki/FAQs>
